@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ html , body{
+     height: 100%;
+      width: 100%;
+      background-color: #212121;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ }
+ .card{
+     width: 90%;
+     max-width: 470px;
+     background: #878787;
+     color: #fff;
+     margin: 100px auto 0;
+     border-radius: 8px;
+     padding: 40px 35px;
+     text-align: center;
+ }
+ .title{
+    color: blue;
+ }
+ .year{
+    color: red;
+ }
+ .search{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .search input{
+     border:0;
+     outline: 0;
+     background-color: #ebfffc;
+     color: #555;
+     padding: 10px;
+     height: 40px;
+     border-radius: 5px;
+     flex: 1;
+     margin-right: 16px;
+     font-size: 18px;
+ }
+ .search button{
+     border: 0;
+     outline: 0;
+     background-color: #ebfffc;
+     border-radius: 5px;
+     width: 60px;
+     height: 40px;
+     cursor: pointer;
+ }
+ .search button img{
+     width: 16px;
+ }
+ .movie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    /* display: none; */
+ }
+ .movie .imgs{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    text-align: center;
+ }
+ .movie img{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+    
+ }
